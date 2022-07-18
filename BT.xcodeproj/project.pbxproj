@@ -11,6 +11,8 @@
 		0599EB4A2885199800CD38F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0599EB492885199800CD38F8 /* ContentView.swift */; };
 		0599EB4C2885199900CD38F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0599EB4B2885199900CD38F8 /* Assets.xcassets */; };
 		0599EB4F2885199900CD38F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0599EB4E2885199900CD38F8 /* Preview Assets.xcassets */; };
+		0599EB56288519D600CD38F8 /* BTEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0599EB55288519D600CD38F8 /* BTEManager.swift */; };
+		0599EB58288519E900CD38F8 /* BT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0599EB57288519E900CD38F8 /* BT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0599EB492885199800CD38F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0599EB4B2885199900CD38F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0599EB4E2885199900CD38F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0599EB55288519D600CD38F8 /* BTEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTEManager.swift; sourceTree = "<group>"; };
+		0599EB57288519E900CD38F8 /* BT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				0599EB492885199800CD38F8 /* ContentView.swift */,
 				0599EB4B2885199900CD38F8 /* Assets.xcassets */,
 				0599EB4D2885199900CD38F8 /* Preview Content */,
+				0599EB55288519D600CD38F8 /* BTEManager.swift */,
+				0599EB57288519E900CD38F8 /* BT.swift */,
 			);
 			path = BT;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0599EB4A2885199800CD38F8 /* ContentView.swift in Sources */,
+				0599EB58288519E900CD38F8 /* BT.swift in Sources */,
+				0599EB56288519D600CD38F8 /* BTEManager.swift in Sources */,
 				0599EB482885199800CD38F8 /* BTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +278,8 @@
 				DEVELOPMENT_TEAM = G22462Y3TT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use BT Always?";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Use BT?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +309,8 @@
 				DEVELOPMENT_TEAM = G22462Y3TT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Use BT Always?";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Use BT?";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
