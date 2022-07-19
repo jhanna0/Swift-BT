@@ -1,0 +1,1 @@
+{"x": 0.03, "y": 0.88, "z": -0.44, "roll": 116.57, "pitch": -1.75, "status": "Device Connected"}
